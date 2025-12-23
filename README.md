@@ -31,7 +31,8 @@ give @s commandrod:command_rod[commandrod:command={right:"tp 0 64 0"}]
 give @s commandrod:command_rod[commandrod:command={left:"tp 0 64 0"}]
 ```
 
-leftの値を指定すると、このアイテムを持った状態での左クリックによる破壊、攻撃はできなくなります。  
+leftの値を指定すると、このアイテムを持った状態での左クリックによる破壊、攻撃はできなくなります。
+
 また、この場合、右クリックではコマンドは実行されません。  
 以下のコマンドを実行すれば、右クリックと左クリックで別々のコマンドを実行するコマンドロッドを入手できます。
 
@@ -41,8 +42,7 @@ give @s commandrod:command_rod[commandrod:command={right:"tp 0 64 0",left:"xp ad
 
 もちろん、同じコマンドを設定すれば、右クリックでも左クリックでも同じコマンドを実行するアイテムになります。
 
-バニラのアイテムモデル機能を使えば、個別に見た目を変えられます！  
-ぜひマップ制作に役立ててください！
+バニラのアイテムモデル機能を使えば、個別に見た目を変えられます！
 
 ## Licenses
 
